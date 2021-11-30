@@ -1,0 +1,32 @@
+{
+  "name": "learn-json",
+  "version": "1.0.0",
+  "description": "demo how to use json-server",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon main.js",
+    "start": "npm run generate-date.js && node main.js",
+    "generate-data": "node generate-date.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bon-nguyen/learn-json.git"
+  },
+  "keywords": [
+    "json-server"
+  ],
+  "author": "Bon Tran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bon-nguyen/learn-json/issues"
+  },
+  "homepage": "https://github.com/bon-nguyen/learn-json#readme",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  },
+  "devDependencies": {
+    "faker": "^5.5.3",
+    "nodemon": "^2.0.15"
+  }
+}
